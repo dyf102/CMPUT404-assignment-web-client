@@ -31,9 +31,9 @@ BASEHOST = '127.0.0.1'
 BASEPORT = 27600 + random.randint(1,100)
 
 
-#httpclass = httpclient
-import mysolution
-httpclass = mysolution
+httpclass = httpclient
+#import mysolution
+#httpclass = mysolution
 
 # Sorry but in Python this comes out of the box!
 class MyHTTPHandler(BaseHTTPServer.BaseHTTPRequestHandler):
